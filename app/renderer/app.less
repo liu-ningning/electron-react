@@ -1,0 +1,25 @@
+.html {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  overflow: hidden;
+
+  .aside {
+    display: flex;
+
+    .sider {
+      flex: 0 0 120px !important;
+      min-width: 0 !important;
+      width: 120px !important;
+    }
+  }
+
+  .body {
+    height: 100vh;
+    flex: 1;
+
+    .content {
+      height: calc(100vh - 64px);
+    }
+  }
+}
